@@ -153,10 +153,50 @@ function saveSheet(argument) {
                         prof: $('#page-1 #saves-skills #skills #athletics-skill input[name="prof"]').prop("checked"),
                         expr: $('#page-1 #saves-skills #skills #athletics-skill input[name="expr"]').prop("checked")
                     },
+                    aviation: {
+                        val: $('#page-1 #saves-skills #skills input[name="aviation-skill"]').val(),
+                        prof: $('#page-1 #saves-skills #skills #aviation-skill input[name="prof"]').prop("checked"),
+                        expr: $('#page-1 #saves-skills #skills #aviation-skill input[name="expr"]').prop("checked")
+                    },
                     deception: {
                         val: $('#page-1 #saves-skills #skills input[name="deception-skill"]').val(),
                         prof: $('#page-1 #saves-skills #skills #deception-skill input[name="prof"]').prop("checked"),
                         expr: $('#page-1 #saves-skills #skills #deception-skill input[name="expr"]').prop("checked")
+                    },
+                    celticreligion: {
+                        val: $('#page-1 #saves-skills #skills input[name="celticreligion-skill"]').val(),
+                        prof: $('#page-1 #saves-skills #skills #celticreligion-skill input[name="prof"]').prop("checked"),
+                        expr: $('#page-1 #saves-skills #skills #celticreligion-skill input[name="expr"]').prop("checked")
+                    },
+                    christianreligion: {
+                        val: $('#page-1 #saves-skills #skills input[name="christianreligion-skill"]').val(),
+                        prof: $('#page-1 #saves-skills #skills #christianreligion-skill input[name="prof"]').prop("checked"),
+                        expr: $('#page-1 #saves-skills #skills #christianreligion-skill input[name="expr"]').prop("checked")
+                    },
+                    demolitions: {
+                        val: $('#page-1 #saves-skills #skills input[name="demolitions-skill"]').val(),
+                        prof: $('#page-1 #saves-skills #skills #demolitions-skill input[name="prof"]').prop("checked"),
+                        expr: $('#page-1 #saves-skills #skills #demolitions-skill input[name="expr"]').prop("checked")
+                    },
+                    driving: {
+                        val: $('#page-1 #saves-skills #skills input[name="driving-skill"]').val(),
+                        prof: $('#page-1 #saves-skills #skills #driving-skill input[name="prof"]').prop("checked"),
+                        expr: $('#page-1 #saves-skills #skills #driving-skill input[name="expr"]').prop("checked")
+                    },
+                    engineering: {
+                        val: $('#page-1 #saves-skills #skills input[name="engineering-skill"]').val(),
+                        prof: $('#page-1 #saves-skills #skills #engineering-skill input[name="prof"]').prop("checked"),
+                        expr: $('#page-1 #saves-skills #skills #engineering-skill input[name="expr"]').prop("checked")
+                    },
+                    etiquete: {
+                        val: $('#page-1 #saves-skills #skills input[name="etiquete-skill"]').val(),
+                        prof: $('#page-1 #saves-skills #skills #etiquete-skill input[name="prof"]').prop("checked"),
+                        expr: $('#page-1 #saves-skills #skills #etiquete-skill input[name="expr"]').prop("checked")
+                    },
+                    hacking: {
+                        val: $('#page-1 #saves-skills #skills input[name="hacking-skill"]').val(),
+                        prof: $('#page-1 #saves-skills #skills #hacking-skill input[name="prof"]').prop("checked"),
+                        expr: $('#page-1 #saves-skills #skills #hacking-skill input[name="expr"]').prop("checked")
                     },
                     history: {
                         val: $('#page-1 #saves-skills #skills input[name="history-skill"]').val(),
@@ -168,6 +208,12 @@ function saveSheet(argument) {
                         prof: $('#page-1 #saves-skills #skills #insight-skill input[name="prof"]').prop("checked"),
                         expr: $('#page-1 #saves-skills #skills #insight-skill input[name="expr"]').prop("checked")
                     },
+                    inspiration: {
+                        val: $('#page-1 #saves-skills #skills input [name="inspiration-skill"]').val(),
+                        prof: $('#page-1 #saves-skills #skills #inspiration-skill input[name="prof"]').prop("checked"),
+                        expr: $('#page-1 #saves-skills #skills #inspiration-skill input[name="expr"]').prop("checked")
+                    
+                    },
                     intimidation: {
                         val: $('#page-1 #saves-skills #skills input[name="intimidation-skill"]').val(),
                         prof: $('#page-1 #saves-skills #skills #intimidation-skill input[name="prof"]').prop("checked"),
@@ -178,10 +224,20 @@ function saveSheet(argument) {
                         prof: $('#page-1 #saves-skills #skills #investigation-skill input[name="prof"]').prop("checked"),
                         expr: $('#page-1 #saves-skills #skills #investigation-skill input[name="expr"]').prop("checked")
                     },
+                    learning: {
+                        val: $('#page-1 #saves-skills #skills input[name="learning-skill"]').val(),
+                        prof: $('#page-1 #saves-skills #skills #learning-skill input[name="prof"]').prop("checked"),
+                        expr: $('#page-1 #saves-skills #skills #learning-skill input[name="expr"]').prop("checked")
+                    },
                     medicine: {
                         val: $('#page-1 #saves-skills #skills input[name="medicine-skill"]').val(),
                         prof: $('#page-1 #saves-skills #skills #medicine-skill input[name="prof"]').prop("checked"),
                         expr: $('#page-1 #saves-skills #skills #medicine-skill input[name="expr"]').prop("checked")
+                    },
+                    mythology: {
+                        val: $('#page-1 #saves-skills #skills input[name="mythology-skill"]').val(),
+                        prof: $('#page-1 #saves-skills #skills #mythology-skill input[name="prof"]').prop("checked"),
+                        expr: $('#page-1 #saves-skills #skills #mythology-skill input[name="expr"]').prop("checked")
                     },
                     nature: {
                         val: $('#page-1 #saves-skills #skills input[name="nature-skill"]').val(),
@@ -198,15 +254,40 @@ function saveSheet(argument) {
                         prof: $('#page-1 #saves-skills #skills #performance-skill input[name="prof"]').prop("checked"),
                         expr: $('#page-1 #saves-skills #skills #performance-skill input[name="expr"]').prop("checked")
                     },
-                    persuasion: {
-                        val: $('#page-1 #saves-skills #skills input[name="persuasion-skill"]').val(),
-                        prof: $('#page-1 #saves-skills #skills #persuasion-skill input[name="prof"]').prop("checked"),
-                        expr: $('#page-1 #saves-skills #skills #persuasion-skill input[name="expr"]').prop("checked")
+                    manipulation: {
+                        val: $('#page-1 #saves-skills #skills input[name="manipulation-skill"]').val(),
+                        prof: $('#page-1 #saves-skills #skills #manipulation-skill input[name="prof"]').prop("checked"),
+                        expr: $('#page-1 #saves-skills #skills #manipulation-skill input[name="expr"]').prop("checked")
+                    },
+                    nordicreligion: {
+                        val: $('#page-1 #saves-skills #skills input[name="nordicreligion-skill"]').val(),
+                        prof: $('#page-1 #saves-skills #skills #nordicreligion-skill input[name="prof"]').prop("checked"),
+                        expr: $('#page-1 #saves-skills #skills #nordicreligion-skill input[name="expr"]').prop("checked")
                     },
                     religion: {
                         val: $('#page-1 #saves-skills #skills input[name="religion-skill"]').val(),
                         prof: $('#page-1 #saves-skills #skills #religion-skill input[name="prof"]').prop("checked"),
                         expr: $('#page-1 #saves-skills #skills #religion-skill input[name="expr"]').prop("checked")
+                    },
+                    repair: {
+                        val: $('#page-1 #saves-skills #skills input[name="repair-skill"]').val(),
+                        prof: $('#page-1 #saves-skills #skills #repair-skill input[name="prof"]').prop("checked"),
+                        expr: $('#page-1 #saves-skills #skills #repair-skill input[name="expr"]').prop("checked")
+                    },
+                    runes: {
+                        val: $('#page-1 #saves-skills #skills input[name="runes-skill"]').val(),
+                        prof: $('#page-1 #saves-skills #skills #runes-skill input[name="prof"]').prop("checked"),
+                        expr: $('#page-1 #saves-skills #skills #runes-skill input[name="expr"]').prop("checked")
+                    },
+                    sciences: {
+                        val: $('#page-1 #saves-skills #skills input[name="sciences-skill"]').val(),
+                        prof: $('#page-1 #saves-skills #skills #sciences-skill input[name="prof"]').prop("checked"),
+                        expr: $('#page-1 #saves-skills #skills #sciences-skill input[name="expr"]').prop("checked")
+                    },
+                    seduction: {
+                        val: $('#page-1 #saves-skills #skills input[name="seduction-skill"]').val(),
+                        prof: $('#page-1 #saves-skills #skills #seduction-skill input[name="prof"]').prop("checked"),
+                        expr: $('#page-1 #saves-skills #skills #seduction-skill input[name="expr"]').prop("checked")
                     },
                     sleight_hand: {
                         val: $('#page-1 #saves-skills #skills input[name="sleight-hand-skill"]').val(),
